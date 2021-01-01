@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for searching employee",
   "main": "index.js",
   "scripts": {
     "start": "source .env && node --inspect app.js",
@@ -9,7 +9,7 @@
   },
   "ava": {
     "files": [
-        "./src/**/*.test.js"
+      "./src/**/*.test.js"
     ]
   },
   "keywords": [],
@@ -24,8 +24,6 @@
     "@hapi/vision": "^6.0.0",
     "glob": "^7.1.6",
     "hapi-auth-jwt2": "^10.0.0",
-    "hapi-pino": "^6.5.0",
-    "hapi-swagger": "^13.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
     "mongodb": "^3.5.6"
@@ -33,7 +31,6 @@
   "devDependencies": {
     "ava": "^3.13.0",
     "mongodb-memory-server": "^6.3.3",
-    "nodemon": "^2.0.2",
-    "testdouble": "^3.13.1"
+    "nodemon": "^2.0.2"
   }
 }

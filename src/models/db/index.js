@@ -23,7 +23,9 @@ async function connect(uri, dbName) {
         });
 
         
-        log.debug(`Connected to uri: ${uri}/${dbName}`);
+        if(!config.isTesting) {
+            log.debug(`Connected to uri: ${uri}/${dbName}`);
+        }
         
         db = client.db(dbName);
         listenToEvents(db);
