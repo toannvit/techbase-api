@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "API to view list of employees",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "source .env && node app.js",
     "test": "node_modules/.bin/ava"
