@@ -41,7 +41,7 @@ module.exports = {
             const { department, team, skip, limit } = request.query;
             const { id, role, departmentId } = request.auth.credentials;
             
-            if (role == config.roles.staff && departmentId !== deparment) {
+            if (role == config.roles.staff && departmentId !== department) {
                 return boom.forbidden(`${id} Not allowed to search for users another deparment`);
             }
 

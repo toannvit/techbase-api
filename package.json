@@ -7,6 +7,11 @@
     "start": "source .env && node --inspect app.js",
     "test": "node_modules/.bin/ava"
   },
+  "ava": {
+    "files": [
+        "./src/**/*.test.js"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
