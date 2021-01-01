@@ -2,7 +2,7 @@
 
 Author: toannvit@gmail.com
 
-API to search for employees
+API to view list of employees
 
 List of framework/library used: 
   - Hapijs as a web framework
